@@ -18,17 +18,17 @@ def sumarNumeros(num1,num2):
 
 def restarNumeros(num1,num2):
   respuesta=0
-  respuesta=num1+num2
+  respuesta=num1-num2
   return(respuesta)
 def multiplicarNumeros(num1,num2):
   respuesta=0
-  respuesta=num1+num2
+  respuesta=num1*num2
   return(respuesta)
 
 def dividirNumeros(num1,num2):
   respuesta=0
   if(num2!=0):
-    respuesta=num1+num2
+    respuesta=num1/num2
   else:
     print("ERROR: No puedo dividir para 0")
   return(respuesta)
